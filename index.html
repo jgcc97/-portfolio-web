@@ -8,29 +8,34 @@
     </head>
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="">My Projects</a>
-                    </li>
-                    <li>
-                        <a href="">Experience</a>
-                    </li>
-                    <li>
-                        <a href="">Languages and Tools</a>
-                    </li>
-                    <li>
-                        <a href="">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+            <div>
+                <figure>
+                    <img src="" alt=""/>
+                </figure>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#portfolio">My Projects</a>
+                        </li>
+                        <li>
+                            <a href="#experience">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#languages">Languages and Tools</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <section>
             <h1>
                 I'm <strong>José Gabriel Cafaro</strong>,<br/>Programmer Full Stack.<br/>I like learn new things.
             </h1>
         </section>
-        <section>
+        <section id="portfolio">
             <h2>My Projects</h2>
             <article>
                 <h3>
@@ -39,18 +44,114 @@
                 <p><small><strong>Date:</strong> 04/18/2019</small></p>
                 <p>This is my Portfolio, as you can see is this web site, and I made this with only HTML5 and CSS3</p>
             </article>
+            <article>
+                <h3>
+                    System Version Control
+                </h3>
+                <p><small><strong>Date:</strong> 04/18/2019</small></p>
+                <p>I made with a team our own SVC, was a project for the university that I studied (UCAB)</p>
+            </article>
         </section>
-        <section>
+        <section id="experience">
             <h2>
                 Experience
             </h2>
-            <article></article>
+            <article>
+                <h3>Studies</h3>
+                <h4>Universidad Católica Andrés Bello (UCAB)</h4>
+                <p><small><strong>Date: </strong>2014-2019</small></p>
+                <p>I studied Informatic Engineering at UCAB in Caracas, Venezuela.</p>
+            </article>
+            <article>
+                <h3>
+                    Works
+                </h3>
+                <h4>CR Sistemas 2020 C.A.</h4>
+                <p><small><strong>Date: </strong>jul/2018 - dec/2018</small></p>
+                <p>I worked in CR Sistemas with the charge of <strong>Junior Developer</strong> in the Backend and QA (Quality Assurance) of the system</p>
+                <h4>Mipto Tech C.A.</h4>
+                <p><small><strong>Date: </strong>jan/2019 - Today</small></p>
+                <p>I work in Mipto Tech with the charge of <strong>Graphic Developer</strong> design and program Videogames with Unity for desktops, mobile and VR</p>
+            </article>
         </section>
-        <section>
+        <section id="languages">
             <h2>Languages and Tools</h2>
+            <p>I have abilities in this languages and tools:</p>
+            <ul>
+                <li>
+                    <a href="https://www.javascript.com/" target="_blank">Javascript</a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/sql/" target="_blank">SQL</a>
+                </li>
+                <li>
+                    <a href="http://nosql-database.org/" target="_blank">No-SQL</a>
+                </li>
+                <li>
+                    <a href="https://www.python.org/" target="_blank">Python</a>
+                </li>
+                <li>
+                    <a href="https://docs.microsoft.com/es-es/dotnet/csharp/tutorials/intro-to-csharp/" target="_blank">C#</a>
+                </li>
+                <li>
+                    <a href="https://www.java.com/es/" target="_blank">Java</a>
+                </li>
+                <li>
+                    <a href="https://nodejs.org/es/" target="_blank">NodeJs</a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/html/" target="_blank">HTML</a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/css/" target="_blank" target="_blank">CSS</a>
+                </li>
+                <li>
+                    <a href="https://www.docker.com/" target="_blank" target="_blank">Docker</a>
+                </li>
+                <li>
+                    <a href="https://jenkins.io/" target="_blank" target="_blank">Jenkins</a>
+                </li>
+                <li>
+                    <a href="https://kubernetes.io/" target="_blank" target="_blank">Kubernetes</a>
+                </li>
+                <li>
+                    <a href="https://unity.com/" target="_blank" target="_blank">Unity</a>
+                </li>
+                <li>
+                    <a href="https://threejs.org/" target="_blank">THREE.JS</a>
+                </li>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/Unit_testing" target="_blank">Unit Test</a>
+                </li>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/Functional_testing" target="_blank">Functional Test</a>
+                </li>
+                <li>
+                    <a href="https://www.mysql.com/" target="_blank">MySQL</a>
+                </li>
+                <li>
+                    <a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a>
+                </li>
+                <li>
+                    <a href="https://www.oracle.com/es/index.html" target="_blank">Oracle</a>
+                </li>
+                <li>
+                    <a href="https://www.mongodb.com/es" target="_blank">MongoDB</a>
+                </li>
+                <li>
+                    <a href="https://redis.io/" target="_blank">Redis</a>
+                </li>
+            </ul>
         </section>
-        <section>
+        <section id="contact">
             <h2>Contact</h2>
+            <label for="name">If you want my service or you have a question, Let me know</label>
+            <form action="/contact">
+                <input id="name" type="text" name="name" placeholder="Your Name" required/>
+                <input type="text" name="message" placeholder="Write your Message" required/>
+                <button>Submit</button>
+            </form>
         </section>
+        <footer>Footer</footer>
     </body>
 </html>
