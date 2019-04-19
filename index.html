@@ -5,14 +5,15 @@
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <title>José Gabriel Cafaro Crocamo</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <header>
+        <header class="header">
             <div>
-                <figure>
+                <figure class="logo">
                     <img src="" alt=""/>
                 </figure>
-                <nav>
+                <nav class="menu">
                     <ul>
                         <li>
                             <a href="#portfolio">My Projects</a>
@@ -30,51 +31,49 @@
                 </nav>
             </div>
         </header>
-        <section>
+        <section class="hero">
             <h1>
                 I'm <strong>José Gabriel Cafaro</strong>,<br/>Programmer Full Stack.<br/>I like learn new things.
             </h1>
         </section>
-        <section id="portfolio">
+        <section id="portfolio" class="portfolio">
             <h2>My Projects</h2>
-            <article>
-                <h3>
+            <article class="projects">
+                <h3 class="project-name">
                     My Portfolio
                 </h3>
-                <p><small><strong>Date:</strong> 04/18/2019</small></p>
-                <p>This is my Portfolio, as you can see is this web site, and I made this with only HTML5 and CSS3</p>
+                <p class="project-date"><small><strong>Date:</strong> 04/18/2019</small></p>
+                <p class="project-description">This is my Portfolio, as you can see is this web site, and I made this with only HTML5 and CSS3</p>
             </article>
-            <article>
-                <h3>
+            <article class="projects">
+                <h3 class="project-name">
                     System Version Control
                 </h3>
-                <p><small><strong>Date:</strong> 04/18/2019</small></p>
-                <p>I made with a team our own SVC, was a project for the university that I studied (UCAB)</p>
+                <p class="project-date"><small><strong>Date:</strong> 04/18/2019</small></p>
+                <p class="project-description">I made with a team our own SVC, was a project for the university that I studied (UCAB)</p>
             </article>
         </section>
-        <section id="experience">
+        <section id="experience" class="experience">
             <h2>
                 Experience
             </h2>
-            <article>
-                <h3>Studies</h3>
-                <h4>Universidad Católica Andrés Bello (UCAB)</h4>
-                <p><small><strong>Date: </strong>2014-2019</small></p>
-                <p>I studied Informatic Engineering at UCAB in Caracas, Venezuela.</p>
+            <article class="experience-studies">
+                <h3 class="experience-title">Studies</h3>
+                <h4 class="experience-name">Universidad Católica Andrés Bello (UCAB)</h4>
+                <p class="experience-date"<small><strong>Date: </strong>2014-2019</small></p>
+                <p class="experience-description">I studied Informatic Engineering at UCAB in Caracas, Venezuela.</p>
             </article>
-            <article>
-                <h3>
-                    Works
-                </h3>
-                <h4>CR Sistemas 2020 C.A.</h4>
-                <p><small><strong>Date: </strong>jul/2018 - dec/2018</small></p>
-                <p>I worked in CR Sistemas with the charge of <strong>Junior Developer</strong> in the Backend and QA (Quality Assurance) of the system</p>
-                <h4>Mipto Tech C.A.</h4>
-                <p><small><strong>Date: </strong>jan/2019 - Today</small></p>
-                <p>I work in Mipto Tech with the charge of <strong>Graphic Developer</strong> design and program Videogames with Unity for desktops, mobile and VR</p>
+            <article class="experience-work">
+                <h3 class="experience-title">Works</h3>
+                <h4 class="experience-name">CR Sistemas 2020 C.A.</h4>
+                <p class="experience-date"><small><strong>Date: </strong>jul/2018 - dec/2018</small></p>
+                <p class="experience-description">I worked in CR Sistemas with the charge of <strong>Junior Developer</strong> in the Backend and QA (Quality Assurance) of the system</p>
+                <h4 class="experience-name">Mipto Tech C.A.</h4>
+                <p class="experience-date"><small><strong>Date: </strong>jan/2019 - Today</small></p>
+                <p class="experience-description">I work in Mipto Tech with the charge of <strong>Graphic Developer</strong> design and program Videogames with Unity for desktops, mobile and VR</p>
             </article>
         </section>
-        <section id="languages">
+        <section id="languages" class="languages">
             <h2>Languages and Tools</h2>
             <p>I have abilities in this languages and tools:</p>
             <ul>
@@ -143,15 +142,15 @@
                 </li>
             </ul>
         </section>
-        <section id="contact">
+        <section id="contact" class="contact">
             <h2>Contact</h2>
             <label for="name">If you want my service or you have a question, Let me know</label>
-            <form action="/contact">
+            <form action="/contact" class="form">
                 <input id="name" type="text" name="name" placeholder="Your Name" required/>
                 <input type="text" name="message" placeholder="Write your Message" required/>
                 <button>Submit</button>
             </form>
         </section>
-        <footer>Footer</footer>
+        <footer class="footer">Footer</footer>
     </body>
 </html>
